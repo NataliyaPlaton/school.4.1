@@ -15,4 +15,3 @@ create table car
     model varchar(255),
     price numeric
 );
-

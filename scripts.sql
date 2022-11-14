@@ -1,6 +1,26 @@
-select count(*) from student;
+select *
+from student;
 
-select avg(age) from student;
+select *
+from student
+where age > 21
+  and age < 26;
 
-select * from student order by id desc limit 5;
+select name
+from student;
 
+select *
+from student
+where name like '%o%';
+
+select *
+from student
+where age < id;
+
+select *
+from student
+order by age;
+
+select *
+from student
+order by age desc;
